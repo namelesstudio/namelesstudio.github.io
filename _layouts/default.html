@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        <nav class="site-nav">
+          <a class="page-link" href="/archive">Archives</a>
+          <a class="page-link" href="/about">About</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+      <footer class="site-footer">
+        <div class="wrapper">
+        <span>
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> whyidoit @ 遇见更好的自己！
+        </span>
+		本站总访问量<span id="busuanzi_value_site_pv"></span>次
+		本站访客数<span id="busuanzi_value_site_uv"></span>人次
+        </div>
+      </footer>
+    </main>
+
+  </body>
+
+</html>

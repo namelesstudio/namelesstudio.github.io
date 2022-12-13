@@ -1,0 +1,32 @@
+# Site settings
+title:          DS2DY3
+description:    "爱你就像爱生命"
+url:            "https://ds2dy3.github.io"
+
+# Author
+author:
+  name:         whyidoit
+  url:          http://ds2dy3.github.io
+  email:        gd.s.qiu@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+paginate_path: /page/:num
+
+
+#googleAnaly, your id link UA-12345678-X
+googleAnaly:
+  config: true
+  id: UA-80213062-1
+
+busuanzi_enabled: true
