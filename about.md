@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-我叫YiMing.
+I am YiMing.
 
 
 Thanks for reading!
