@@ -1,13 +1,13 @@
 # Site settings
-title:          DS2DY3
-description:    "爱你就像爱生命"
-url:            "https://ds2dy3.github.io"
+title:          YiMing's Studio
+description:    "生命在于折腾"
+url:            "https://namelesstudio.github.io"
 
 # Author
 author:
-  name:         whyidoit
-  url:          http://ds2dy3.github.io
-  email:        gd.s.qiu@gmail.com
+  name:         YiMing
+  url:          http://namelesstudio.github.io
+  email:        thebeautiful@163.com
 
 # Build settings
 markdown:       kramdown
